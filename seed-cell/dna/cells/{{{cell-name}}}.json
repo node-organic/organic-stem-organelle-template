@@ -1,0 +1,7 @@
+{
+  "build": {
+    "{{{organelle-name}}}": {
+      "source": "./organelles/{{{organelle-name}}}"
+    }
+  }
+}

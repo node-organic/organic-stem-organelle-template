@@ -1,0 +1,51 @@
+{
+  "name": "organic-stem-organelle-template",
+  "description": "scaffold standalone or within project organelle",
+  "version": "1.0.0",
+  "bin": {
+    "organic-stem-organelle-template": "./index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "organic-stack-upgrade": "^1.2.0",
+    "prompt-radio": "^1.2.1"
+  },
+  "devDependencies": {
+    "async-request": "^1.2.0",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "execa": "^1.0.0",
+    "jest": "^23.5.0",
+    "organic-stem-core-template": "github:node-organic/organic-stem-core-template",
+    "organic-stem-server-express-http-api-cell-template": "github:node-organic/organic-stem-server-express-http-api-cell-template",
+    "terminate": "^2.1.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/seed-cell/",
+      "/seed-standalone/",
+      "/seed-repo/"
+    ]
+  },
+  "stackUpgrades": {
+    "organic-stack-template": "1.0.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-organic/organic-stem-organelle-template.git"
+  },
+  "author": "Boris Filipov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-organic/organic-stem-organelle-template/issues"
+  },
+  "homepage": "https://github.com/node-organic/organic-stem-organelle-template#readme"
+}
